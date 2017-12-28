@@ -64,7 +64,6 @@ def can_be_found_updated_and_saved
   Movie.change
   movie = Movie.find_by(title: 'Awesome Flick')
   movie.update(title: "Even Awesomer Flick")
-  Movie.change
 end
 
 def can_update_using_update_method
