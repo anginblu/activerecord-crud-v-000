@@ -5,6 +5,7 @@
 #   movie = __                     #   movie = Movie.new
 # end                              # end
 require 'pry'
+
 def can_be_instantiated_and_then_saved
   movie = Movie.create(title: "This is a title.")
 end
@@ -36,6 +37,7 @@ def can_get_the_last_item_in_the_database
 end
 
 def can_get_size_of_the_database
+  binding.pry
   Movie.size
 end
 
