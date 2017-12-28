@@ -47,7 +47,7 @@ def can_find_by_multiple_attributes
   # title == "Title"
   # release_date == 2000
   # director == "Me"
-  Movie.find
+  Movie.find_by 
 end
 
 def can_find_using_where_clause_and_be_sorted
