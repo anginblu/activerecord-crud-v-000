@@ -63,7 +63,7 @@ def can_be_found_updated_and_saved
   Movie.create(title: "Awesome Flick")
   Movie.change
   Movie.
-  __
+  Movie.change
 end
 
 def can_update_using_update_method
